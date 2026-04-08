@@ -1,0 +1,4 @@
+- This project uses a base class, `Person` with two derived classes, `Employee, Student`.
+- `Employee` calls the constructor of the base class
+- Despite `Employee` overloading `Person::print()` we can explicitly call the base version of the method via `Person::print()`
+- Private member variables of the base class can be stored in the base class, reducing LOC in the derived class. We instantiate a `Student`, however `m_name` is stored in the base class, `Person`
