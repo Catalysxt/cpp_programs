@@ -1,0 +1,2 @@
+- A set is an unordered structure **without duplicates.**
+- `Set` inherits from `LinkedList`
